@@ -1,17 +1,17 @@
 body {
-	color: #ddd;
-	background-color: #000;
+    color: #ddd;
+    background-color: #000;
 }
 
 ::-moz-selection {
-	background: #9375fd;
-	color: #fff;
+    background: #9375fd;
+    color: #fff;
     text-shadow: none
 }
 
 ::selection {
-	background: #9375fd;
-	color: #fff;
+    background: #9375fd;
+    color: #fff;
     text-shadow: none
 }
 
@@ -20,47 +20,53 @@ hr {
 }
 
 blockquote {
-	border-color: #ddd;
+    border-color: #ddd;
 }
 
-h1,h2,h3,h4,h5,h6 {
-	color: #ddd;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #ddd;
 }
 
-a,a:hover {
-	color: #9375fd;
-	text-decoration: none;
+a,
+a:hover {
+    color: #9375fd;
+    text-decoration: none;
 }
 
 table tbody tr:nth-of-type(even) {
-  background-color: rgba(255, 255, 255, 0.15);
+    background-color: rgba(255, 255, 255, 0.15);
 }
 
 .site-description a,
 .site-description a:hover {
-	color: #ddd;
-	text-decoration: underline;
+    color: #ddd;
+    text-decoration: underline;
 }
 
 a:hover {
-	opacity: 0.8;
+    opacity: 1;
 }
 
 .post-tags .tags a {
     border: 1px solid #ddd;
-	color: #ddd;
+    color: #ddd;
 }
 
 .site-title a {
-	color: #ddd;
-	text-decoration: none !important;
+    color: #ddd;
+    text-decoration: none !important;
 }
 
 .header nav,
 .footer {
-	border-color: #333;
+    border-color: #333;
 }
 
 .highlight {
-	background-color: #333;
+    background-color: #333;
 }
