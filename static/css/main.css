@@ -273,7 +273,7 @@ ul {
 }
 
 .site-title a:hover {
-    border-bottom-width: 3px;
+    border-bottom-width: 0px;
 }
 
 .header .site-description {
@@ -404,6 +404,10 @@ ul {
     font-size: 0.85em;
     text-decoration: none;
     margin: 0 10px 0 0;
+}
+
+.tags ul.flat li {
+    display: inline-block;
 }
 
 .list .posts .post-header .meta {
