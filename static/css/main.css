@@ -412,8 +412,21 @@ code {
     font-size: 0.75em;
 }
 
-.post-header h1.title {
-    margin: -10px 0 0 0;
+
+.one .post-header h1.title {
+    font-family: Merriweather-Bold;
+    font-weight: 700;
+}
+
+.one .post-header .matter {
+    line-height: 68px;
+}
+
+.one .post-header .matter h1 {
+    line-height: 34px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
 }
 
 .post .title.small {
