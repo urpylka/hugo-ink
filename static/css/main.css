@@ -325,6 +325,7 @@ ul {
     margin-left: 15px;
 }
 
+.footer nav ul svg,
 .header .site-description nav ul svg {
     max-height: 15px;
 }
