@@ -249,7 +249,7 @@ ul {
 
 .highlight code {
     background: 0;
-    white-space: pre-wrap;
+    white-space: pre;
 }
 
 code {
