@@ -283,6 +283,7 @@ ul {
     border-bottom-width: 0px;
 }
 
+.footer,
 .header .site-description {
     display: flex;
     justify-content: space-between;
