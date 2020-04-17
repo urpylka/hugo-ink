@@ -306,12 +306,15 @@ ul {
     margin: 0 30px 0 0;
 }
 
+.footer nav.social a,
 .header nav.social a {
-    color: #333;
+    color: #aaa;
 }
 
+.footer nav.social a:hover,
 .header nav.social a:hover {
     color: #9376fd;
+    border: 0;
 }
 
 .header .site-description nav {
@@ -342,6 +345,11 @@ ul {
 .header .site-description .scheme-toggle a.light svg {
     fill: grey;
     color: black;
+}
+
+.header .site-description .scheme-toggle a:hover {
+    border: 0;
+    opacity: 0.6;
 }
 
 .section .section-header {
