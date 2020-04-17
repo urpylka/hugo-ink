@@ -295,7 +295,7 @@ ul {
 }
 
 .header nav {
-    border-top: 1px solid #eee;
+    border-top: 1px solid #ccc;
     padding-top: 15px;
 }
 
@@ -441,7 +441,7 @@ ul {
     text-align: right;
     font-size: 0.75em;
     color: #999;
-    border-top: 1px solid #f4f4f4;
+    border-top: 1px solid #ccc;
     margin-top: 40px;
     padding: 15px 0;
 }
