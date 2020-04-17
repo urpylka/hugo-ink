@@ -1,18 +1,17 @@
 document.addEventListener("DOMContentLoaded", function(){
   let toggle = document.getElementById("scheme-toggle");
+  let darkScheme = document.getElementById("dark-scheme");
 
   let scheme = "light";
-  let savedScheme = localStorage.getItem("scheme");
 
-  let darkScheme = document.getElementById("dark-scheme");
-  // read initial scheme from html (and logic of hugo)
-  // but it didn't read if it set to light
+  // Check user's settings
   let prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-
   if (prefersDark) {
     scheme = "dark";
   }
 
+  // Check saved settings
+  let savedScheme = localStorage.getItem("scheme");
   if(savedScheme) {
     scheme = savedScheme;
   }
