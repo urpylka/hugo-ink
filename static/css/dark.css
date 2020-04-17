@@ -70,3 +70,13 @@ a:hover {
 .highlight {
     color: #555;
 }
+
+.highlight code {
+    background: 0;
+    color: #333;
+}
+
+code {
+    background-color: rgba(104, 56, 160, 0.527);
+    color: #eee;
+}
