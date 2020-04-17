@@ -21,6 +21,13 @@
     src: url(/fonts/playfairdisplay.ttf) format('truetype');
 }
 
+@font-face {
+    font-family: 'Merriweather-Bold';
+    font-style: normal;
+    font-weight: 700;
+    src: url(/fonts/Merriweather-Bold.ttf) format('truetype');
+}
+
 body {
     font-family: "Inter", sans-serif;
     font-weight: 400;
