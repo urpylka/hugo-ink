@@ -1,11 +1,11 @@
 document.addEventListener("DOMContentLoaded", function(){
-  var toggle = document.getElementById("scheme-toggle");
+  let toggle = document.getElementById("scheme-toggle");
 
-  var scheme = "light";
-  var savedScheme = localStorage.getItem("scheme");
+  let scheme = "light";
+  let savedScheme = localStorage.getItem("scheme");
 
-  var darkScheme = document.getElementById("dark-scheme");
-  var prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+  let darkScheme = document.getElementById("dark-scheme");
+  let prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
 
   if (prefersDark) {
     scheme = "dark";
