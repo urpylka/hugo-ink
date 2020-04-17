@@ -302,7 +302,6 @@ code {
     border-bottom-width: 0px;
 }
 
-.footer,
 .header .site-description {
     display: flex;
     justify-content: space-between;
@@ -325,12 +324,10 @@ code {
     margin: 0 30px 0 0;
 }
 
-.footer nav.social a,
 .header nav.social a {
     color: #aaa;
 }
 
-.footer nav.social a:hover,
 .header nav.social a:hover {
     color: #9376fd;
     border: 0;
@@ -344,7 +341,6 @@ code {
     margin-left: 15px;
 }
 
-.footer nav ul svg,
 .header .site-description nav ul svg {
     max-height: 15px;
 }
