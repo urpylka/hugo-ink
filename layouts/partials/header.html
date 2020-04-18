@@ -6,21 +6,21 @@
 		</a>
 	</div>
 	{{- end -}}
-	<h1 class="site-title" style="font-family: Montserrat-SemiBold;"><a href="{{- .Site.BaseURL -}}">{{- .Site.Title -}}</a></h1>
-	<div class="site-description">
-		{{- if isset .Site.Params "subtitle" -}}
-		<p style="font-family: medium-marketing-display-font;">{{- .Site.Params.Subtitle | markdownify -}}</p>
-		{{- end -}}
-		<nav class="nav social">
+	<div class="flex-block">
+		<h1 class="site-title"><a href="{{- .Site.BaseURL -}}">{{- .Site.Title -}}</a></h1>
+		<nav class="nav ico">
 			<ul class="flat">
 				{{- range $index, $key := .Site.Params.Social -}}
-					<li><a href="{{- $key.url -}}" title="{{- $key.name -}}"><i data-feather="{{- $key.icon -}}"></i></a></li>
+				<li><a href="{{- $key.url -}}" title="{{- $key.name -}}"><i data-feather="{{- $key.icon -}}"></i></a></li>
 				{{- end -}}
+				<li class="edge-left"><span class="scheme-toggle"><a href="#" id="scheme-toggle"></a></span></li>
 			</ul>
 		</nav>
-		<span class="scheme-toggle"><a href="#" id="scheme-toggle"></a>
 	</div>
-	<nav class="nav">
+	{{- if isset .Site.Params "subtitle" -}}
+	<p id="subtitle">{{- .Site.Params.Subtitle | markdownify -}}</p>
+	{{- end -}}
+	<nav class="nav menu">
 		<ul class="flat">
 			{{range .Site.Menus.main}}
 			<li>
