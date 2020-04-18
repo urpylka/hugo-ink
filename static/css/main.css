@@ -28,6 +28,13 @@
     src: url(/fonts/Merriweather-Bold.ttf) format('truetype');
 }
 
+@font-face {
+    font-family: 'Montserrat-SemiBold';
+    font-style: normal;
+    font-weight: 700;
+    src: url(/fonts/Montserrat-SemiBold.ttf) format('truetype');
+}
+
 body {
     font-family: "Inter", sans-serif;
     font-weight: 400;
@@ -415,6 +422,7 @@ code {
 
 .one .post-header h1.title {
     font-family: Merriweather-Bold;
+    /* font-family: medium-marketing-display-font; */
     font-weight: 700;
 }
 

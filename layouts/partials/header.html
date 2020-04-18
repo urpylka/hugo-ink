@@ -6,10 +6,10 @@
 		</a>
 	</div>
 	{{- end -}}
-	<h1 class="site-title"><a href="{{- .Site.BaseURL -}}">{{- .Site.Title -}}</a></h1>
+	<h1 class="site-title" style="font-family: Montserrat-SemiBold;"><a href="{{- .Site.BaseURL -}}">{{- .Site.Title -}}</a></h1>
 	<div class="site-description">
 		{{- if isset .Site.Params "subtitle" -}}
-		<p>{{- .Site.Params.Subtitle | markdownify -}}</p>
+		<p style="font-family: medium-marketing-display-font;">{{- .Site.Params.Subtitle | markdownify -}}</p>
 		{{- end -}}
 		<nav class="nav social">
 			<ul class="flat">
