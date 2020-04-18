@@ -46,9 +46,8 @@
 	<link rel="stylesheet" type="text/css" id="dark-scheme" href="{{ .Site.BaseURL }}css/dark.css" />
 	<link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}css/medium-font.css" />
 
-
 	{{- if .Site.Params.YandexMetrika -}}
-		{{- partial "yandex-metrika.html" -}}
+		{{- partial "yandex-metrika.html" . -}}
 	{{- end -}}
 
 	{{- if .Site.GoogleAnalytics -}}
